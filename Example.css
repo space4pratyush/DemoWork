@@ -1,0 +1,52 @@
+@font-face {
+	 font-family: 'ChunkFiveRegular';
+	 src: url('fonts/chunkfive.eot');}
+h1{
+    color: yellow;
+    font-family: fantasy, Georgia, Times, serif;
+    background-color: red;
+    width: auto;
+    text-decoration: blink;
+    background-image: url("Images/pp.jpeg");
+    background-repeat: no-repeat;
+    /*text-indent: -9999px; it is way out of sight but still
+in the HTML code.*/
+    text-indent: 20px;
+    text-shadow: -5px -5px 3px #666666; /* first left or right, second top or bottom, third is blur value, fourth is color of the shadow, third is optional*/
+}
+h2{
+    font-family: chunkFiveRegular;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 1.5em;
+    letter-spacing: 0.2em;
+    word-spacing: 0.2em;
+    text-align: center;
+    vertical-align: bottom;/*helpful for text with images*/
+}
+h2:first-letter{
+    font-size: 200%;
+}
+.vert{
+    vertical-align: top;/*not working*/
+    font-weight: bold;
+}
+body{
+    /*background-color: rgb(100,255,155);*/
+    background-color: hsla(0,100%,100%,0.5);
+    /* a for opacity value is from 0 to 1, Hue (0-360 degree), Saturation in percentage, lightness in percentage from white to black, Alpha from 0 to 1*/
+}
+p:first-line{
+    font-weight: 200;
+}
+a:link {
+	 color: deeppink;
+	 text-decoration: none;}
+a:visited {
+	 color: black;}
+a:hover {
+	 color: deeppink;
+	 text-decoration: underline;}
+a:active {
+	 color: darkcyan;}
